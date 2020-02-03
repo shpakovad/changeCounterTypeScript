@@ -18,9 +18,6 @@ interface IProps {
     counterSet: string
     isCounterSet: any
     onSetCounter: (onSetCounter: any) => void
-    // set: string
-    // onSet: (onSet: any) => void
-    // isButtonSet: boolean
 }
 
 class Counter extends React.Component <IProps> {
@@ -35,14 +32,10 @@ class Counter extends React.Component <IProps> {
                         errorMin={this.props.errorMin}
                 />
                 <BtnsBlock reset={this.props.reset}
-                           // set={this.props.set}
                            inc={this.props.inc}
                            onInc={this.props.onInc}
-                           // onSet={this.props.onSet}
                            onReset={this.props.onReset}
                            isButtonInc={this.props.isButtonInc}
-                           // isButtonSet={this.props.isButtonSet}
-                     // counter={this.props.counter}
                            isButtonReset={this.props.isButtonReset}
                            counterSet={this.props.counterSet}
                            onSetCounter={this.props.onSetCounter}

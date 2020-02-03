@@ -34,17 +34,8 @@ class SettingsCounter extends React.Component <IProps> {
                                 errorMin={this.props.errorMin}
                 />
                 <SettingsBtnsBlock set={this.props.set}
-                                   // inc={this.props.inc}
-                                   // reset={this.props.reset}
-                                   // counterSet={this.props.counterSet}
                                    onSet={this.props.onSet}
                                    isButtonSet={this.props.isButtonSet}
-                                   // onInc={this.props.onInc}
-                                   // onReset={this.props.onReset}
-                                   // onSetCounter={this.props.onSetCounter}
-                                   // isButtonInc={this.props.isButtonInc}
-                                   // isButtonReset={this.props.isButtonReset}
-                                   // isCounterSet={this.props.isCounterSet}
                 />
             </div>
         );

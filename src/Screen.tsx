@@ -15,8 +15,6 @@ class Screen extends React.Component <IProps> {
         return (
             <div className='screen'>
                 <div className={classForNumber}
-                     // counter={this.props.counter}
-                     // numberNewColor={this.props.numberNewColor}
                 > {this.props.counter}
                 </div>
             </div>
